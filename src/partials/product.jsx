@@ -1,6 +1,20 @@
-export function Product(){
+import data from "./product.json";
+import "./product.css"
 
-    return<>
-    <h2>Product</h2>
-    </>
+export function Product() {
+    return (
+        <>
+            <div className="main-product-box">
+                {data.map((c, i) => {
+                    return <div className="box">
+                        <img src={c.img} alt="" />
+                        <h1>Product: {c.name}</h1>
+                        <h3>Price: {c.price}</h3>
+                        <h4>{c.description}</h4>
+                        <button className="btn-explore">Buy now</button>
+                    </div>
+                })}
+            </div>
+        </>
+    );
 }

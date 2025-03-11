@@ -6,7 +6,7 @@
     width: 100vw;
     height: 80vh;
     background-color: var(--primary-color);
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto ;
     /* padding: 5vw 5vw; */
 }
@@ -125,4 +125,48 @@
   button:hover {
     background-color: var(--secondary-color);
   }
-  
+  @media (min-width: 300px) and (max-width: 500px) {
+      .about-p-1{
+        flex-direction: column;
+        height: 100vh;
+      }
+      .about-left{
+        min-width: 90vw;
+        margin: 0 auto;
+      }
+      .about-left img{
+        padding-top: 10vh;
+        width: 86vw;
+      }
+      .a-containor{
+        height: 70vh;
+      }
+      .about-right{
+        width: 100vw;
+      }
+      .a-containor{
+        min-width: 70vw;
+        margin: 0 auto;
+      }
+      .a-containor h2{
+        margin-top: 3vh;
+        font-size: 8vw;
+        font-weight: 800;
+      }
+      .a-containor h4{
+        font-size: 4vw;
+      }
+      .about-left-2{
+        order: 2;
+      }
+      .about-right-2{
+        width: 100vw;
+        height: 50vh;
+      }
+      .about-right-2 img{
+        width: 86vw;
+      }
+      .about-left-2{
+        width: 100vw;
+      }
+  }  
