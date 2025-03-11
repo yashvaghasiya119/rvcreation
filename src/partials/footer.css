@@ -1,0 +1,90 @@
+:root{
+    --primary-color: #9fa881;
+  --secondary-color: #3B4C57;
+}
+.footer-main{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--primary-color);
+}
+.content-threeclass{
+    padding-top: 10vh;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.first{
+    width: 27vw;
+    height: 55vh;
+}
+.rvlogo-footer{
+    width: 26vw;
+    height: 45vh;
+}
+
+
+.contect {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  gap: 0 12vw;
+}
+
+.first {
+  width: 29vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 4vh 3vh;
+  color: var(--secondary-color);
+}
+
+i {
+  margin-top: 3vh;
+  line-height: 3vh;
+}
+
+span {
+  margin-left: 1.5vw;
+  line-height: 3.5vh;
+  letter-spacing: .4vw;
+
+}
+
+.logo-footer {
+  color: var(--secondary-color);
+}
+
+.second a {
+  color: var(--secondary-color);
+}
+.copyright{
+    color: var(--secondary-color);
+    margin-top: 5vh;
+    align-items: center;
+    max-width: 80vw;
+    text-align: center;
+
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .content-threeclass{
+        flex-direction: column;
+    }
+    .footer-main{
+        height: 150vh;
+    }
+    .first{
+        width: 80vw;
+    }
+    .rvlogo-footer{
+        width: 90vw;
+    }
+    .copyright{
+        font-size: 5vw;
+        text-align: center;
+    }
+}
