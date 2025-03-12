@@ -35,7 +35,7 @@ export function Footer() {
     <div className="footer-main">
       <div className="content-threeclass">
         <div className="first">
-          <img className="rvlogo-footer" src="/src/assets/Rvlogo.png" alt="" />
+          <img className="rvlogo-footer" src="/public/Rvlogo.png" alt="" />
           <h2>More Creation, More Possibilities</h2>
         </div>
         <div className="first">
