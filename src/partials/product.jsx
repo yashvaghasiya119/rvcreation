@@ -11,6 +11,7 @@ export function Product() {
                         <h1>Product: {c.name}</h1>
                         <h3>Price: {c.price}</h3>
                         <h4>{c.description}</h4>
+                        
                         <button className="btn-explore">Buy now</button>
                     </div>
                 })}
