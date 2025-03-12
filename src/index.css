@@ -91,7 +91,7 @@ ul li {
 .right {
   width: 50vw;
   height: 100vh;
-  background-image: url("./assets/main1.png");
+  background-image: url("/main1.png");
   background-size: 50vw 95vh;
   background-repeat: no-repeat;
   background-color: var(--primary-color);

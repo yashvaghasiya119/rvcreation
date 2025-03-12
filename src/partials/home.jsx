@@ -4,19 +4,19 @@ export function Home() {
     let data = [
         {
             productname: "product",
-            image: "/src/assets/main1.png",
+            image: "/main1.png",
             price: 200,
             special: "for sepdfdl d; d;fdfdfdfd dfdffdd dfdfkdd[]dg r dfdfdsddsdsds sd"
         },
         {
             productname: "product",
-            image: "/src/assets/main1.png",
+            image: "/main1.png",
             price: 200,
             special: "for sepdfdl d; d;fdfdfdfd dfdffdd dfdfkdd[]dg r dfdfdsddsdsds sd"
         },
         {
             productname: "product",
-            image: "/src/assets/main1.png",
+            image: "/main1.png",
             price: 200,
             special: "for sepdfdl d; d;fdfdfdfd dfdffdd dfdfkdd[]dg r dfdfdsddsdsds sd "
         },
