@@ -7,7 +7,7 @@
     padding-top: 5vh;
     width: 98vw;
     height: 260vh;
-    background-color: var(--primary-color);
+    background-color: beige;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5vh 0;
@@ -15,12 +15,13 @@
 
 .box {
     width: 27vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: var(--secondary-color);
+    /* background-color: var(--primary-color); */
 }
 
 .box img {
@@ -41,6 +42,59 @@
     margin-bottom: 1.7vh;
 }
 
+/* inner product  */
+.inner-product {
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-inner-product {
+    width: 45vw;
+    height: 80vh;
+}
+
+.inner-p-i {
+    width: 40vw;
+    height: 75vh;
+}
+
+.right-inner-product {
+    width: 40vw;
+    height: 75vh;
+    margin-left: 0;
+    color: var(--secondary-color);
+}
+
+.product-Catogory,
+.product-price {
+    margin: 2.5vw 0;
+}
+
+.related-main {
+    margin-top: 5vh;
+    width: 40vw;
+    height: 30vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.related-card {
+    width: 15vw;
+    height: 30vh;
+    /* background: blue; */
+}
+
+.r-flex {
+    display: flex;
+    gap: 0 2vw;
+}
+
+.related-card img {
+    width: 100%;
+    height: 20vh;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
     .main-product-box {
         grid-template-columns: auto auto;
@@ -53,10 +107,36 @@
         height: 40vh;
         padding-top: 0;
     }
-.box h1{
-    font-size: 6vw;
-}
+
+    .box h1 {
+        font-size: 6vw;
+    }
+
     .box img {
         width: 40vw;
+    }
+    .inner-product{
+        flex-direction: column;
+    }
+    .left-inner-product{
+        width: 100vw;
+        height: 70vh;
+    }
+    .inner-p-i{
+        width: 90vw;
+        height: 60vh;
+    }
+    .right-inner-product{
+        min-width: 90vw;
+        height: 60vh;
+    }
+    .right-inner-product h4{
+        font-size: 4vw;
+    }
+    .related-main{
+        width: 90vw;
+    }
+    .related-card{
+        width: 49vw;
     }
 }

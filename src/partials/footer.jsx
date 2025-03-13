@@ -1,6 +1,6 @@
 import "./footer.css"
 export function Footer() {
-  const phoneNumber = '+91 12345 67890 /232323223';
+  const phoneNumber = '+91 9924360172';
 
   const handleClick = () => {
     // Copy the phone number to the clipboard
@@ -48,28 +48,9 @@ export function Footer() {
                      <h2>Social media</h2>
                      <a href="#"><i class="fa-brands fa-instagram"><span>Instagram account</span></i></a>
                  </div>
-                 <h1 class="copyright">All Rights Reserved By &copy; Yash Vaghasiya 2025</h1>
 
       </div>
+                 <h1 class="copyright">All Rights Reserved By &copy; Yash Vaghasiya 2025</h1>
     </div>
   </>
 }
-//  <div className="home-details">
-//             <div className="contect">
-//                 <div className="logo-footer">
-//                     <img src="/public/Rvlogo.png" alt="" />
-//                     <h2>More Creation, More Possibilities</h2>
-//                 </div>
-//                 <div className="first">
-//                     <h2>Contect Information</h2>
-//                     <i class="fa-solid fa-phone" onClick={handleClick}><span>{phoneNumber}</span></i>
-//                     <i class="fa-solid fa-envelope" onClick={goemail}><span>{email}</span></i>
-//                     <i class="fa-solid fa-location-dot"><span >40 ,nand bunglows , mota varacha ,surat</span></i>
-//                 </div>
-//                 <div className="second first">
-//                     <h2>Social media</h2>
-//                     <a href="#"><i class="fa-brands fa-instagram"><span>Instagram account</span></i></a>
-//                 </div>
-//             </div>
-//             <div className="tag"></div>
-//         </div>

@@ -5,6 +5,7 @@ import { Home } from './partials/home'
 import { Product } from './partials/product'
 import { About } from './partials/about'
 import { Contect } from './partials/contect'
+import { Innerproduct } from './partials/innerproduct'
 function App() {
 
   const route = createBrowserRouter([
@@ -28,6 +29,10 @@ function App() {
           path:"/contect",
           element:<Contect/>
         },
+        {
+          path:"/product/:id",
+          element:<Innerproduct/>
+        }
       ]
 
     }
