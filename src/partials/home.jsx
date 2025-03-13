@@ -26,7 +26,7 @@ export function Home() {
   
     return <>
         <div>
-            <div className="home-page1 "  >
+            <div className="home-page1 "  data-aos="zoom-in" data-aos-duration="1300" data-aos-once="true"  >
                 <div className="left">
                     <div className="inner-left">
                         <h1>Celebrating Handmade, Celebrating You</h1>
